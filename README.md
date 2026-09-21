@@ -130,33 +130,6 @@ python -m py_compile password_checker.py password_checker_app.py test_password_c
 
 The tests cover password-analysis behavior, boundary conditions, Unicode handling, secret non-disclosure, large inputs, performance, CLI error handling, and desktop GUI behavior.
 
-## Project files
-
-```text
-password_checker.py
-    Deterministic password-analysis engine.
-
-password_checker_app.py
-    Desktop application interface.
-
-test_password_checker.py
-    Core analysis tests.
-
-test_password_checker_app.py
-    Desktop application tests.
-
-build_windows.bat
-    Windows EXE build helper.
-
-README.md
-    User documentation.
-
-LICENSE
-    MIT License.
-```
-
-The architecture specifications describe the core engine and desktop application design in more detail.
-
 ## Scope
 
 This is a local strength-analysis tool. It does not authenticate users, store credentials, crack passwords, query online breach databases, or guarantee that a password is secure against every possible attack.
